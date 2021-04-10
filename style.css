@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Langar', cursive;
+    background-image: url("./images/fe3545469a6d65137b921656ae976c3e.gif");
+    background-repeat: repeat;
+    background-position:unset;
+    background-clip: border-box;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 20px 1000px 0px 0px;
+    margin-left: auto;
+    text-align: left;
+    font-size: 40px;
+}
+
+header p {
+   font-size: 20px;
+}
+ 
+.pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background: #ffa07a;
+}
+
+.pad2 {
+    background: #ffb6c1;
+}
+
+.pad3 {
+    background:#d3d3d3 ;
+}
+
+.pad4 {
+    background: #90ee90;
+}
+
+.pad5 {
+    background: #fafad2;
+}
+
+.pad6 {
+    background: #e0ffff;
+}
+
+.visuals > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left:20%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump {
+    0%{
+       bottom: 0%;
+       left: 20%;
+    }
+
+    50%{
+        bottom: 50%;
+       left: 50%;
+    }
+
+    100%{
+        bottom: 0%;
+       left: 80%;
+    }
+}
+
+.visuals > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    
+}
+
